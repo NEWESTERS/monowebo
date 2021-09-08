@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "lib": ["ESNext", "DOM"],
+        "target": "ESNext",
+        "moduleResolution": "node",
+        "outDir": "build",
+        "jsx": "react-jsx",
+        "types": ["snowpack-env"],
+        "skipLibCheck": true,
+        "noEmit": true,
+        "module": "ESNext",
+        "isolatedModules": true
+    },
+    "include": ["src", "types"]
+}

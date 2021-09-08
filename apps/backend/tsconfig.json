@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "strict": true,
+        "lib": ["ESNext"],
+        "target": "ES6",
+        "moduleResolution": "Node",
+        "module": "CommonJS",
+        "outDir": "build",
+        "types": ["@types/node"]
+    },
+    "include": ["src"],
+}

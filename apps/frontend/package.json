@@ -1,0 +1,49 @@
+{
+  "name": "@monowebo/frontend",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "lint-staged": "lint-staged",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@monowebo/utilities": "workspace:*",
+    "react": "~17.0.2",
+    "react-dom": "~17.0.2",
+    "object-assign": "~4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.15.5",
+    "@rushstack/eslint-config": "~2.4.0",
+    "@storybook/addon-actions": "~6.3.8",
+    "@storybook/addon-essentials": "~6.3.8",
+    "@storybook/addon-links": "~6.3.8",
+    "@storybook/components": "~6.3.8",
+    "@storybook/core-events": "~6.3.8",
+    "@storybook/theming": "~6.3.8",
+    "@storybook/react": "~6.3.8",
+    "@types/react": "~17.0.19",
+    "@types/react-dom": "~17.0.9",
+    "babel-loader": "^8.2.2",
+    "eslint": "~7.32.0",
+    "eslint-plugin-react-hooks": "~4.2.0",
+    "lint-staged": "~11.1.2",
+    "node-filter-async": "~2.0.0",
+    "ts-loader": "~9.2.5",
+    "typescript": "~4.4.2",
+    "webpack": "~5.51.1",
+    "snowpack": "~3.8.8",
+    "@snowpack/plugin-react-refresh": "~2.5.0",
+    "@snowpack/plugin-typescript": "~1.2.1",
+    "@snowpack/plugin-dotenv": "~2.2.0",
+    "@types/snowpack-env": "~2.3.4",
+    "@snowpack/plugin-babel": "~2.1.7",
+    "@babel/preset-env": "~7.15.4",
+    "@babel/preset-react": "~7.14.5",
+    "@babel/preset-typescript": "~7.15.0",
+    "@snowpack/plugin-webpack": "~3.0.0"
+  }
+}

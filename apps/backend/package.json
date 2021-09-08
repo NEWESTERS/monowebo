@@ -1,0 +1,26 @@
+{
+  "name": "@monowebo/backend",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "ts-node ./src/server.ts",
+    "watch": "nodemon",
+    "build": "tsc",
+    "lint-staged": "lint-staged"
+  },
+  "dependencies": {
+    "@monowebo/utilities": "workspace:*",
+    "express": "~4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "~4.4.2",
+    "eslint": "~7.32.0",
+    "lint-staged": "~11.1.2",
+    "@rushstack/eslint-config": "~2.4.0",
+		"node-filter-async": "~2.0.0",
+		"@types/node": "~16.7.8",
+		"ts-node": "~10.2.1",
+		"nodemon": "~2.0.12",
+		"@types/express": "~4.17.13"
+  }
+}

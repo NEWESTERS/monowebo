@@ -1,0 +1,21 @@
+{
+  "name": "@monowebo/utilities",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --watch",
+    "lint-staged": "lint-staged"
+  },
+  "devDependencies": {
+    "typescript": "~4.4.2",
+    "eslint": "~7.32.0",
+    "lint-staged": "~11.1.2",
+    "@rushstack/eslint-config": "~2.4.0",
+    "jest": "~27.1.0",
+    "ts-jest": "~27.0.5",
+		"node-filter-async": "~2.0.0",
+		"@types/jest": "~27.0.1"
+  }
+}
