@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "✨ root",
+			"path": "."
+		},
+		{
+			"name": "🚀 @monowebo/backend",
+			"path": "apps/backend"
+		},
+		{
+			"name": "🚀 @monowebo/frontend",
+			"path": "apps/frontend"
+		},
+		{
+			"name": "📦 @monowebo/utilities",
+			"path": "libs/utilities"
+		},
+	],
+	"settings": {
+		"typescript.tsdk": "common/temp/node_modules/typescript/lib"
+	}
+}

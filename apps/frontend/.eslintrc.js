@@ -14,5 +14,28 @@ module.exports = {
 			version: '17.0',
 		},
 	},
-	ignorePatterns: ['**/*.js', '**/*.mjs'],
+	ignorePatterns: ['**/*.js', '**/*.mjs', '**/*.stories.*'],
+	rules: {
+		'@typescript-eslint/naming-convention': [
+			'error',
+			{
+				selector: 'interface',
+				format: ['PascalCase'],
+				custom: {
+					regex: '^I[A-Z]',
+					match: false,
+				},
+			},
+		],
+		'react/jsx-no-bind': [
+			'error',
+			{
+				allowArrowFunctions: true,
+				allowFunctions: true,
+			},
+		],
+		// Флаг "strict" в tsconfig включает в себя правило "noImplicitAny"
+		// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/typedef.md#when-not-to-use-it
+		'@rushstack/typedef-var': 'off',
+	},
 };

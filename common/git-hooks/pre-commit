@@ -6,4 +6,4 @@
 # Invoke the "rush lint-staged" and "rush prettier" custom commands to lint and reformat files whenever they
 # are committed. The commands is defined in common/config/rush/command-line.json
 # and uses the "rush-prettier" autoinstaller.
-cd frontend  && node common/scripts/install-run-rush.js lint-staged && node common/scripts/install-run-rush.js prettier || exit $?
+node common/scripts/install-run-rush.js lint-staged && node common/scripts/install-run-rush.js prettier || exit $?
